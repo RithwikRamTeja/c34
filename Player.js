@@ -49,8 +49,8 @@ update()
 {
 var playerIndex = "players/player"+ this.index
 database.ref(playerIndex).update({
-  positionX = this.positionX, 
-  positionY = this.positionY
+  positionX : this.positionX, 
+  positionY : this.positionY
 })
 }
 static getPlayersInfo()
